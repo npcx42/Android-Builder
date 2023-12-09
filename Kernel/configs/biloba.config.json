@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "Xiaomi4",
-      "repo": "https://github.com/SonicBSV/android_kernel_xiaomi_markw-4.9",
-      "branch": "master",
-      "device": "markw",
-      "defconfig": "markw_defconfig"
+      "name": "GoreKernel",
+      "repo": "https://github.com/npcx42/android_kernel_redmi_biloba-oc",
+      "branch": "a12",
+      "device": "biloba",
+      "defconfig": "biloba_defconfig"
     },
     "toolchains": [
       {
@@ -59,7 +59,7 @@
       "use": true,
       "release": true
     },
-    "enableKernelSU": true,
-    "enableLXC": true
+    "enableKernelSU": false,
+    "enableLXC": false
   }
 ]
